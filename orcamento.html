@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Orçamento | Biinks 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="header-container">
+
+        <a href="index.html" class="brand">
+
+            <img src="imagens/logo_blinks_3d.png"
+                 alt="Biinks 3D"
+                 class="brand-logo">
+
+        </a>
+
+        <nav class="main-nav">
+
+            <a href="modelos.html">Modelos</a>
+
+            <a href="pedido.html">
+                Como fazer o pedido
+            </a>
+
+            <a href="materiais.html">
+                Materiais
+            </a>
+
+            <a href="orcamento.html"
+               class="nav-button">
+                Orçamento
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                ORÇAMENTO
+            </span>
+
+            <h1>
+                Conte-nos sobre
+                seu projeto.
+            </h1>
+
+            <p>
+                Preencha algumas informações para
+                podermos entender melhor o que você precisa.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="quote-section">
+
+        <div class="container quote-layout">
+
+            <div class="quote-info">
+
+                <span class="section-label">
+                    SEU PROJETO
+                </span>
+
+                <h2>
+                    Vamos conversar
+                    sobre sua ideia.
+                </h2>
+
+                <p>
+                    Quanto mais informações você fornecer,
+                    melhor poderemos entender o projeto
+                    e preparar o orçamento.
+                </p>
+
+                <div class="quote-note">
+
+                    <strong>
+                        Dica
+                    </strong>
+
+                    <p>
+                        Se tiver imagens, referências ou
+                        arquivos do modelo, deixe isso
+                        indicado no formulário.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form class="quote-form">
+
+                <div class="form-group">
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Seu nome"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="seuemail@email.com"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="tipo">
+                        Tipo de projeto
+                    </label>
+
+                    <select id="tipo"
+                            name="tipo">
+
+                        <option value="">
+                            Selecione uma opção
+                        </option>
+
+                        <option>
+                            Modelo decorativo
+                        </option>
+
+                        <option>
+                            Peça personalizada
+                        </option>
+
+                        <option>
+                            Protótipo
+                        </option>
+
+                        <option>
+                            Miniatura
+                        </option>
+
+                        <option>
+                            Outro
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="descricao">
+                        Sobre o projeto
+                    </label>
+
+                    <textarea
+                        id="descricao"
+                        name="descricao"
+                        rows="6"
+                        placeholder="Conte um pouco sobre o que você precisa..."
+                        required></textarea>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="arquivo">
+                        Arquivo ou referência
+                    </label>
+
+                    <input
+                        type="file"
+                        id="arquivo"
+                        name="arquivo">
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary btn-full">
+
+                    Solicitar orçamento
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <img src="imagens/logo_blinks_3d.png"
+                 alt="Biinks 3D"
+                 class="footer-logo">
+
+            <p>Que o Senhor Deus seja louvado!</p>
+        </div>
+
+        <div class="footer-navigation">
+            <a href="index.html">Início</a>
+            <a href="modelos.html">Modelos</a>
+            <a href="pedido.html">Como pedir</a>
+            <a href="materiais.html">Materiais</a>
+            <a href="orcamento.html">Orçamento</a>
+        </div>
+
+        <div class="footer-social">
+            <span>Encontre a gente</span>
+
+            <div class="social-icons">
+
+                <a href="https://wa.me/SEUNUMERO"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/biinks3d/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Biinks 3D · Todos os direitos reservados.</p>
+    </div>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
